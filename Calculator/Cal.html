@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Calculator</title>
+
+		<link rel="stylesheet" href="Cal.css" />
+		
+	</head>
+	<body>
+		<div id="calculator">
+			<div id="result">0</div>
+			<button onclick="cls();">AC</button>
+			<button onclick="num(this.innerHTML);">7</button>
+			<button onclick="num(this.innerHTML);">8</button>
+			<button onclick="num(this.innerHTML);">9</button>
+			<button onclick="calc(this.innerHTML);">/</button>
+			<button onclick="num(this.innerHTML);">4</button>
+			<button onclick="num(this.innerHTML);">5</button>
+			<button onclick="num(this.innerHTML);">6</button>
+			<button onclick="calc(this.innerHTML);">*</button>
+			<button onclick="num(this.innerHTML);">1</button>
+			<button onclick="num(this.innerHTML);">2</button>
+			<button onclick="num(this.innerHTML);">3</button>
+			<button onclick="calc(this.innerHTML);">-</button>
+			<button onclick="num(this.innerHTML);">0</button>
+			<button onclick="num(this.innerHTML);">.</button>
+			<button onclick="total();">=</button>
+			<button onclick="calc(this.innerHTML);">+</button>
+			<div id="smallResult"></div>
+		</div>
+		<script src="Cal.js"></script>
+	</body>
+</html>
